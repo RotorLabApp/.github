@@ -85,6 +85,7 @@ We publish the software that runs in the field so the people who rely on it can 
 | Project | What it is |
 |---|---|
 | **[RotorLabGC](https://github.com/RotorLabApp/RotorLabGC)** | RotorLab GC's full source, built on [QGroundControl](https://qgroundcontrol.com/). Your security team can review exactly what runs on your field laptops and tablets, and build it yourself. Source under Apache 2.0 or GPL v3, at your choice; published builds under GPL v3. |
+| **[rotorlab-relay-agent](https://github.com/RotorLabApp/rotorlab-relay-agent)** | The live telemetry relay agent: one Python file that sends an ArduPilot or PX4 aircraft's MAVLink stream to the RotorLab Live Telemetry page over outbound WSS. View-only, standard library, no inbound port. Apache 2.0. |
 
 GC works with standard MAVLink autopilots, so there is no autopilot lock-in. Running it with your RotorLab organization takes a license key from your RotorLab account. We keep QGroundControl's license and credit its contributors and the Dronecode community. RotorLab is not affiliated with or endorsed by QGroundControl, Dronecode, ArduPilot, PX4, DJI or the TAK Product Center.
 
