@@ -37,7 +37,10 @@ Built your own or bought off the shelf: register the aircraft and the record sta
 RotorLab keeps the whole life of each aircraft in one record: how it was designed, every flight it flew, every inspection, repair and part change, every hazard and sign-off. File the flight and the records keep themselves. When a regulator, an insurer or a customer asks what happened, you answer with one download. Every document RotorLab issues carries a code anyone can check at [rotorlab.app/verify](https://rotorlab.app/verify), every file in an audit binder has its own SHA-256 checksum, and records are timestamped daily by independent services.
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RotorLabApp/.github/main/profile/rotorlab-aircraft-record-dark.png">
   <img src="https://raw.githubusercontent.com/RotorLabApp/.github/main/profile/rotorlab-aircraft-record-light.png" width="900" alt="The record of the demo aircraft DEMO-01 in RotorLab: model, registration and serial, no flags with one note, in service, 2.8 hours over 9 flights, nothing open, no maintenance program applied, and the last flight by Alex Rivera. The record says plainly that it is not permission to fly.">
+  </picture>
   <br><sub>One aircraft's record, from a demo organization. It says what the records show, and that this is not permission to fly.</sub>
 </p>
 
@@ -131,7 +134,10 @@ GC speaks standard MAVLink and is built for ArduPilot and PX4 aircraft. Running 
 ## Trust and security
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RotorLabApp/.github/main/profile/rotorlab-audit-binder-dark.png">
   <img src="https://raw.githubusercontent.com/RotorLabApp/.github/main/profile/rotorlab-audit-binder-light.png" width="760" alt="An audit binder produced in RotorLab for a demo insurer: scope, records checked with nothing blocking, eight categories produced, and the result with its verification code, a note that the independent timestamp is added in the next daily pass, and buttons to open it as the reader will, send it or download it.">
+  </picture>
   <br><sub>An audit binder for a demo insurer: one download, a code anyone can check, and an independent timestamp added in the next daily pass.</sub>
 </p>
 
