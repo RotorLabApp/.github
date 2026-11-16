@@ -85,6 +85,7 @@ We publish the software that runs in the field so the people who rely on it can 
 | Project | What it is |
 |---|---|
 | **[RotorLabGC](https://github.com/RotorLabApp/RotorLabGC)** | RotorLab GC's full source, built on [QGroundControl](https://qgroundcontrol.com/). Your security team can review exactly what runs on your field laptops and tablets, and build it yourself. Source under Apache 2.0 or GPL v3, at your choice; published builds under GPL v3. |
+| **[rotorlab-gc-tak-guide](https://github.com/RotorLabApp/rotorlab-gc-tak-guide)** | The field guide to RotorLab GC with ATAK and TAK: connecting to a TAK server, putting aircraft on the TAK map, and deciding which markers can command them, with screenshots of a conservative setup and a one-page quick reference. CC BY 4.0. |
 | **[rotorlab-relay-agent](https://github.com/RotorLabApp/rotorlab-relay-agent)** | The live telemetry relay agent: one Python file that sends an ArduPilot or PX4 aircraft's MAVLink stream to the RotorLab Live Telemetry page over outbound WSS. View-only, standard library, no inbound port. Apache 2.0. |
 | **[rotorlab-relay-pi](https://github.com/RotorLabApp/rotorlab-relay-pi)** | One-script Raspberry Pi setup: mavlink-router plus the relay agent as hardened services, for live telemetry from the field. View-only. Apache 2.0. |
 | **[rotorlab-api-examples](https://github.com/RotorLabApp/rotorlab-api-examples)** | The developer kit: Python and curl examples for the RotorLab API, a signed-webhook receiver, MCP setup, and the published OpenAPI spec and Postman collection. Apache 2.0. |
