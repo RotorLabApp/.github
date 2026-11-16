@@ -88,6 +88,7 @@ We publish the software that runs in the field so the people who rely on it can 
 | **[rotorlab-relay-agent](https://github.com/RotorLabApp/rotorlab-relay-agent)** | The live telemetry relay agent: one Python file that sends an ArduPilot or PX4 aircraft's MAVLink stream to the RotorLab Live Telemetry page over outbound WSS. View-only, standard library, no inbound port. Apache 2.0. |
 | **[rotorlab-api-examples](https://github.com/RotorLabApp/rotorlab-api-examples)** | The developer kit: Python and curl examples for the RotorLab API, a signed-webhook receiver, MCP setup, and the published OpenAPI spec and Postman collection. Apache 2.0. |
 | **[rotorlab-import-templates](https://github.com/RotorLabApp/rotorlab-import-templates)** | The switch-over kit: CSV templates for RotorLab's importers and checkers that refuse bad rows before you upload. Apache 2.0. |
+| **[rotorlab-design-math](https://github.com/RotorLabApp/rotorlab-design-math)** | The published physics behind the Builder (hover, propulsion, fixed wing, balance, link budget) as readable Python with worked examples, for engineers and educators. Apache 2.0. |
 
 GC works with standard MAVLink autopilots, so there is no autopilot lock-in. Running it with your RotorLab organization takes a license key from your RotorLab account. We keep QGroundControl's license and credit its contributors and the Dronecode community. RotorLab is not affiliated with or endorsed by QGroundControl, Dronecode, ArduPilot, PX4, DJI or the TAK Product Center.
 
